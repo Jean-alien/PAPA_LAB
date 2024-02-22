@@ -4,11 +4,11 @@
 
 <p>let's type in...
     
-<li>Here is name! <%= myTypeClient %>. </li>
+<li>Here is name <%= myResultClient[0].name %>. </li>
 <li>I am Type 9: <%= myTypeClient %> 🕊️. </li>
 <li>I am in my <%= myResultClient[0].grade %> year.</li>
 <li>Classes I am currently taking are <%= myResultClient[0].classes %></li>
-<li>My favorite show is <%= myResultClient[0].tvshows %></li>
+<li>My favorite show is <%= myResultClient[0].tvshows %></li><br>
 
     <form method="get" action="/name">
         <p>Tell us your name! Or something: </p>
@@ -20,7 +20,7 @@
 
       <footer> Connected from my Mongodb 📟
         <a href="/send">send </a> |
-        <a href="https://github.com/Jean-alien/PAPA/tree/iss3" target="_blank"> Source Code</a>
+        <a href="https://github.com/Jean-alien/PAPA_LAB" target="_blank"> Source Code</a>
     </footer>
 
 
